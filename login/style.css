@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Square&family=Playpen+Sans:wght@800&family=Roboto:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+body{
+    font-family: 'Nova Square', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../pexels.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.main{
+    margin-top: 2%;
+    width: 40vw;
+    height: 80vh;
+    border-radius: 20px;
+    padding: 20px;
+    top: 10%;
+}
+.userbox{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+}
+.userbox input{
+    border-radius: 20px;
+    width: 500px;
+    height: 40px;
+}
+label{
+    font-weight: bolder;
+}
+.signup{   
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    /* text-decoration: none; */
+}
+#btn{
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+    font-weight: bolder;
+    text-decoration: none;
+    color: black;
+}
+h1{
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 80px;
+}

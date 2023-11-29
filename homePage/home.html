@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+<div class="main" style="display: block;">
+    <div class="navbar">
+        <div class="navleft">
+            <img src="./image/user-secret-solid.svg" style="height: 30px; width: 30px;">
+            <h2 id="username"></h2>
+        </div>
+        <div class="navright">
+            <button class="btn" id="editbtn" onclick="edithandler()">Edit Profile</button>
+            <button class="btn" id="logoutbtn">Log Out</button>
+        </div>
+    </div>
+    <div class="middle">
+        <h1>Wellcome BaBa Sain Wellcome</h1>
+    </div>
+</div>
+
+    <div class="editProfile" style="display: none;">
+        <img src="./image/user-secret-solid.svg" style="height: 50px; width: 50px;">
+        <h1>EDIT PROFILE</h1>
+        <form>
+          <div class="user-box">
+              <label>Username</label>
+            <input type="text" id="name" name="" required="">
+          </div>
+          <div class="user-box">
+              <label>Email</label>
+            <input type="text" id="email" name="" required="">
+          </div>
+          <div class="user-box">
+              <label>Number</label>
+            <input type="text" id="number" name="" required="">
+          </div>
+          <div class="user-box">
+              <label>Nationality</label>
+            <input type="text" id="nationality" name="" required="">
+          </div>
+          
+          <a id="submit" href="#"><h2>UPDATE</h2></a>
+        </form>
+    </div> 
+    <script src="home.js"></script>
+</body>
+</html>
